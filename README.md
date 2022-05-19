@@ -5,7 +5,7 @@ This is a work-in-progress supernova detection pipeline. Currently I'm stil work
 
 ## Functions
 1. Image Subtraction (Newly-acquired Image - Reference Image) **Status: Finished**
-2. Object(Transient) Detection (Based on YOLOX)   **Status: In-progress**
+2. Object(Transient) Detection (Based on YOLOv5)   **Status: In-progress**
 3. Eliminating False Positives (Flares, satellites, etc.) **Status: Incomplete**
 4. Performing Precise Photometry **Status: Incomplete**
 5. Reporting to User for Futher Actions **Status: Incomplete**
@@ -17,6 +17,6 @@ This is a work-in-progress supernova detection pipeline. Currently I'm stil work
   
 [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
 
-The targets of the dataset were provided from the Pan-STARRS NEO survey and made public via via http://star.pst.qub.ac.uk/ps1threepi/.  
+The targets of the dataset were provided from the Pan-STARRS NEO survey and made public via http://star.pst.qub.ac.uk/ps1threepi/.  
 Operation of the Pan-STARRS1 telescope is supported by the National Aeronautics and Space Administration under Grant No. NNX12AR65G and Grant No. NNX14AM74G issued through the NEO Observation Program.
 
